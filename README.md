@@ -97,7 +97,26 @@ class Solution {
     }
 }
 
+public class Main { 
+    public static void main(String[] args) {
+    //second largest     
 
+    int[] arr = {2,4,7,9,12,26,18};
+    int max = 0;
+    int nextmax = 0;
+        
+    for (int i = 0;i < arr.length;i++) {
+        if (arr[i] > max) {
+            nextmax = max;
+            max = arr[i];
+        }
+        else if (arr[i] > nextmax && arr[i] < max) {
+            nextmax = arr[i];
+        }
+    } 
+    System.out.println("Second Largest: "+ nextmax);    
+  }
+}   
 
 
 
