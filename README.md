@@ -66,6 +66,23 @@ public class Main {
 }
  
 
+public class Main {
+    public static void main(String[] args) {
+        //unique & duplicate elements in an array
+        int[] array = {1,2,4,3,5,3,8,8,8,9};
+        int[] freq = new int[101];
+        
+        for(int i = 0;i < array.length;i++) {
+            int val = array[i];
+            freq[val]++;   
+        }   
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i + " Occurs: " + freq[i]);       
+        }
+    }
+}
+
 
 
 
