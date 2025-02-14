@@ -1,5 +1,6 @@
 # java-programs
 
+```
 public class Main {
     public static void main(String[] args) {
         
@@ -32,8 +33,9 @@ public class Main {
        
     }
 }
+```
 
- 
+``` 
 public class Main {
     public static void main(String[] args) {
         
@@ -47,8 +49,8 @@ public class Main {
         System.out.println("Sum: " + sum + "Product: "+ product);
     }
 }
-
- 
+```
+``` 
 public class Main {
     public static void main(String[] args) {
         
@@ -64,8 +66,8 @@ public class Main {
         System.out.println("Number of Occurnces: " + count);
     }
 }
- 
-
+``` 
+```
 public class Main {
     public static void main(String[] args) {
         //unique & duplicate elements in an array
@@ -82,7 +84,8 @@ public class Main {
         }
     }
 }
-
+```
+```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
@@ -96,7 +99,8 @@ class Solution {
         return new int[]{}; 
     }
 }
-
+```
+```
 public class Main { 
     public static void main(String[] args) {
     //second largest     
@@ -117,7 +121,7 @@ public class Main {
     System.out.println("Second Largest: "+ nextmax);    
   }
 }   
-
+```
 
 
 
